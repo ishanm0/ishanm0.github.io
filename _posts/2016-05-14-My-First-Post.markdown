@@ -8,4 +8,4 @@ Hi Everyone!
 
 This is my first post, and I am excited about it. I am still playing around with Jekyll and Github, but this is super cool!
 
-- Steve Jobs
+-- Steve Jobs
