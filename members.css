@@ -53,3 +53,10 @@ body {
     text-decoration: underline;
     margin-top: 5px;
 }
+#member-list {
+    color: white;
+    font-family: Avenir Next;
+    border-style: solid;
+    padding-left: 10px;
+    width: 250px;
+}
