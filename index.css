@@ -52,6 +52,8 @@ body {
     text-decoration: underline;
     margin-top: 5px;
 }
-.contact-form{
+#intro {
     color: white;
+    font-family: Avenir Next;
+    text-align: center;
 }
