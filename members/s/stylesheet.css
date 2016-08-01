@@ -3,3 +3,10 @@
     font-family: Avenir Next;
     text-align: center;
 }
+#icecream {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
