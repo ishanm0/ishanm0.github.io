@@ -54,4 +54,8 @@ body {
 }
 .calendar {
     text-align: center;
+    border-radius: 5px;
+}
+#iframe {
+    border-radius: 10px;
 }
