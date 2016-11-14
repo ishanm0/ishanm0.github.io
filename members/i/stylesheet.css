@@ -1,0 +1,24 @@
+#about {
+    border-color: white;
+    height: 0;
+    padding-bottom: 50%;
+    width: 50%;
+    background-color: darkcyan;
+    float: left;
+}
+#links {
+    border-color: white;
+    height: 0;
+    padding-bottom: 50%;
+    width: 50%;
+    background-color: green;
+    float: right;
+}
+#tech {
+    border-color: white;
+    height: 0;
+    padding-bottom: 50%;
+    width: 100%;
+    background-color: goldenrod;
+    float: left;
+}
