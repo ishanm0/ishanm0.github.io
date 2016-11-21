@@ -6,8 +6,49 @@
 }
 #icecream {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+#gymnastics {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: right;
+}
+#art {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: right;
+}
+#run {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+#soccer {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+#swim {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
 }
