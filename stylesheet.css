@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "SF ULight";
+    src: url("storage/SF-Pro-Display-Ultralight.otf");
+}
+
+@font-face {
+    font-family: "SF Thin";
+    src: url("storage/SF-Pro-Display-Thin.otf");
+}
+
+@font-face {
+    font-family: "SF Light";
+    src: url("storage/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+    font-family: "SF Regular";
+    src: url("storage/SF-Pro-Display-Regular.otf");
+}
+
+body {
+    font-family: "SF ULight";
+    color: black;
+}
+
+body * {
+    font-weight: 100;
+}
+
+p {
+    font-family: "SF Thin";
+    max-width: 900;
+    min-width: 50%;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#img, #title {
+    float: left;
+}
+
+#img img {
+    width: 100px;
+}
+
+#img {
+    margin: 20px 10px 20px 20px;
+}
+
+#title {
+    margin: 10px 0px 20px 20px;
+}
