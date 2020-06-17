@@ -1,23 +1,37 @@
----
-layout: default
----
+<DOCTYPE! html>
+    <html>
 
-<div class="home">
+    <head>
+        <link rel="shortcut icon" href="storage/me circle.png" type="image/png">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <title>Ishan Madan</title>
+    </head>
 
-  <h1 class="page-heading">Posts</h1>
+    <body>
+        <div class="container">
+            <div id="img">
+                <img src="storage/me circle.png">
+            </div>
+            <div id="title">
+                <h1>My name is Ishan Madan.</h1>
+                <h3>Welcome to my personal website!</h3>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="me">
+            <img src="storage/me casual.jpeg" style="width: 25%;">
+        </div>
+        <div id="description">
+            <p>
+                Ishan is a high school senior focused on STEM, and specifically, computer science and robotics. He is
+                Programming and Electrical Lead of his FIRST Robotics Competition team (<a
+                    href="https://www.popcornpenguins.com">FRC Team 6238: The Popcorn Penguins</a>), Tech Captain
+                of Guzaarish, his high school's Bollywood dance team, and Web Editor and Manager of <a
+                    href="http://www.upaaquila.org"><i>Aquila</i></a>, the
+                school news site and magazine. He loves to read, watch Marvel movies, and code, as well as anything to
+                do with computers or technology. He has regularly acted as tech support for his friends, classmates, and occasionally, teachers.
+            </p>
+        </div>
+    </body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    </html>
