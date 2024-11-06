@@ -1,21 +1,6 @@
 @font-face {
-    font-family: "SF ULight";
-    src: url("storage/SF-Pro-Display-Ultralight.otf");
-}
-
-@font-face {
     font-family: "SF Thin";
     src: url("storage/SF-Pro-Display-Thin.otf");
-}
-
-@font-face {
-    font-family: "SF Light";
-    src: url("storage/SF-Pro-Display-Light.otf");
-}
-
-@font-face {
-    font-family: "SF Regular";
-    src: url("storage/SF-Pro-Display-Regular.otf");
 }
 
 body {
@@ -50,7 +35,7 @@ body {
 }
 
 #img img {
-    width: 150px;
+    width: 128px;
 }
 
 #user {
